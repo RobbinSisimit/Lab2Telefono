@@ -1,0 +1,122 @@
+body {
+    /*SE HIZO ESTO PORQUE Bootstrap SOBREESCRIBIA EL STYLE DEL BODY*/
+    min-height: 100vh; /* Ocupa al menos toda la altura de la ventana */
+    width: 100%; /* Asegura que el ancho sea del 100% */
+    height: 100%;
+    background: -webkit-linear-gradient(bottom, rgb(17, 81, 172), rgb(25, 117, 249)) !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  
+  .TheDiv {
+    border-radius: 25px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1200px;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  
+  .profile-div{
+    border-radius: 25px;
+    display:flex;
+    overflow: hidden;
+    position: relative;
+    border: 4px solid rgb(255, 255, 255);
+    background: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    margin-bottom: 15px;
+    margin-left: 500px;
+    text-align: center;
+  }
+  
+  .divTitle {
+      color: rgb(17, 81, 172);
+      font-family: "Raleway", sans-serif !important;
+      font-size: 25pt !important;
+      margin-top: 30px !important;
+      text-align: left;
+      position: relative;
+  }
+  
+  .underline-title {
+      background: -webkit-linear-gradient(right, rgb(25, 117, 249), rgb(17, 81, 172));
+      height: 5px;
+      width: 450px; /* Longitud de la línea */
+  }
+  
+  .line-contact {
+    background: -webkit-linear-gradient(right, rgb(25, 117, 249), rgb(17, 81, 172));
+    margin-top: 35px;
+    height: 250px;
+    width: 5px; /* Longitud de la línea */
+  }
+  
+  .underline-contact{
+    background: -webkit-linear-gradient(right, rgb(25, 117, 249), rgb(17, 81, 172));
+    margin-top: 50px;
+    height: 5px;
+    width: 1160px; /* Longitud de la línea */
+  }
+  
+  img{
+    border-radius: 50%;
+    width: 170px;
+    margin-top: 35px;
+    margin-right: 50px;
+  }
+  
+  
+  button{
+    width: 180px;
+  }
+  
+  .profile-icon{
+    border-radius: 50%;
+    margin-right: -500px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    width: 200px;
+  }
+  
+  .new-contact-button{
+    position: absolute;
+    top: -30px;
+    right: -5px;
+    width: 150px;
+    height: 150px;
+    border-radius:25% !important; 
+  }
+  
+  .favorites-button{
+    top: -30px;
+    right: -5px;
+    width: 150px;
+    height: 150px;
+    border-radius:25% !important; 
+  }
+  
+  .plus-button{
+    width:2cm;
+    height: 2cm;
+    display: block;
+    margin: auto; /*Asegura que la imagen este centrada dentro del button */
+  }
+  
+  .profile-button{
+    width:8cm;
+    height: 2cm;
+    display: block;
+  }
