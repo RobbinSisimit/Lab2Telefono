@@ -41,62 +41,22 @@ body {
     margin-left: 500px;
     text-align: center;
   }
-  
-  .divTitle {
-      color: rgb(17, 81, 172);
-      font-family: "Raleway", sans-serif !important;
-      font-size: 25pt !important;
-      margin-top: 30px !important;
-      text-align: left;
-      position: relative;
+
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
   }
-  
-  img{
-    border-radius: 50%;
-    width: 170px;
-    margin-top: 35px;
-    margin-right: 50px;
+  #card-content {
+    padding: 12px 44px;
   }
-  
-  
-  button{
-    width: 180px;
-  }
-  
-  .profile-icon{
-    border-radius: 50%;
-    margin-right: -500px;
-    margin-left: 250px;
-    margin-bottom: 50px;
-    width: 200px;
-  }
-  
-  .new-contact-button{
-    position: absolute;
-    top: -30px;
-    right: -5px;
-    width: 150px;
-    height: 150px;
-    border-radius:25% !important; 
-  }
-  
-  .favorites-button{
-    top: -30px;
-    right: -5px;
-    width: 150px;
-    height: 150px;
-    border-radius:25% !important; 
-  }
-  
-  .plus-button{
-    width:2cm;
-    height: 2cm;
-    display: block;
-    margin: auto; /*Asegura que la imagen este centrada dentro del button */
-  }
-  
-  .profile-button{
-    width:8cm;
-    height: 2cm;
-    display: block;
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
   }
