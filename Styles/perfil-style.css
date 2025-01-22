@@ -1,0 +1,26 @@
+ body {
+    /*SE HIZO ESTO PORQUE Bootstrap SOBREESCRIBIA EL STYLE DEL BODY*/
+    min-height: 100vh; /* Ocupa al menos toda la altura de la ventana */
+    width: 100%; /* Asegura que el ancho sea del 100% */
+    height: 100%;
+    background: -webkit-linear-gradient(bottom, rgb(125, 175, 221), rgb(55, 214, 66)) !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  
+  .TheDiv {
+    border-radius: 25px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1200px;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin: 20px auto;
+    text-align: center;
+    text-align: justify;
+  }
